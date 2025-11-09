@@ -1,0 +1,17 @@
+# Ignore large datasets that exceed GitHub's 100MB limit
+data/MasterPlan2019LandUselayer.geojson
+
+# Do not commit cache or large temporary outputs
+outputs/cache/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
