@@ -131,7 +131,7 @@ This project supports Singapore’s national development goals:
 
 ## 📂 Repository Structure
 
-
+```text
 sg-sports-equity-ml/
 ├── data/
 │   ├── data_raw/ # Raw GeoJSON, KML, CSV
@@ -149,7 +149,7 @@ sg-sports-equity-ml/
 ├── .gitignore
 ├── LICENSE
 └── README.md
-
+```
 
 ---
 
