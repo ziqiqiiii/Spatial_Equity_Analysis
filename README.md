@@ -131,19 +131,20 @@ This project supports Singapore’s national development goals:
 
 ## 📂 Repository Structure
 
+
 sg-sports-equity-ml/
 ├── data/
-│ ├── data_raw/ # Raw GeoJSON, KML, CSV
-│ ├── data_processed/ # Cleaned, spatially joined datasets
+│   ├── data_raw/ # Raw GeoJSON, KML, CSV
+│   ├── data_processed/ # Cleaned, spatially joined datasets
 ├── notebooks/
-│ ├── 01_data_cleaning.ipynb
-│ ├── 02_spatial_equity_analysis.ipynb
-│ ├── 03_ml_participation_model.ipynb
-│ └── 04_visualization_dashboard.ipynb
+│   ├── 01_data_cleaning.ipynb
+│   ├── 02_spatial_equity_analysis.ipynb
+│   ├── 03_ml_participation_model.ipynb
+│   └── 04_visualization_dashboard.ipynb
 ├── src/
-│ ├── features/ # buffer, 2SFCA, distance metrics
-│ ├── models/ # OLS, spatial regression, ML models
-│ └── viz/ # mapping and plotting utilities
+│   ├── features/ # buffer, 2SFCA, distance metrics
+│   ├── models/ # OLS, spatial regression, ML models
+│   └── viz/ # mapping and plotting utilities
 ├── reports/ # charts, maps, and policy briefs
 ├── .gitignore
 ├── LICENSE
