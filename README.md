@@ -35,6 +35,7 @@ To answer a critical urban planning question: Does the location of sports facili
 |---|---|
 | Population distribution | With confidential address-level data, population is assumed uniformly distributed within each Planning Area (PA). |
 | Network topology | OSM pedestrian network assumed complete and traversable; major barriers (expressways, rivers) require mapped crossings (bridges). |
+| Target Population Scope (HDB Only) | The model considers only the HDB Resident Population. Residents of Condominiums and Landed Properties are excluded as they typically possess private access to sports amenities (private pools/gyms/clubs). Including them would introduce 'false urgency' (False Negative) in wealthy areas, skewing the inequality metrics and misdirecting recommendations for public infrastructure investment. | 
 
 
 ---
