@@ -63,12 +63,62 @@ To answer a critical urban planning question: Does the location of sports facili
 
 ## Data Sources
 
-| Source | Details |
-|---|---|
-| Population | Resident Households (General Household Survey 2015). |
-| Infrastructure | SportSG, Parks, PCN (Park Connector Network), CPN (Cycling Path Network). |
-| Planning Area | Master Plan 2019 Planning Area, Master Plan 2019 Subzone. |
-| Street Network | OpenStreetMap (via OSMnx) for walkable routes. |
+<table>
+  <thead>
+    <tr>
+      <th>Category</th>
+      <th>Dataset</th>
+      <th>Link</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="1">Population</td>
+      <td>Resident Households (GHS 2015)</td>
+      <td><a href="https://data.gov.sg/datasets?sort=relevancy&query=Planning+Area&resultId=d_2917c3a947cd8d8af80dbec6b587281c">data.gov.sg</a></td>
+    </tr>
+    <tr>
+      <td rowspan="4">Infrastructure</td>
+      <td>SportSG Facilities (Gyms, Pools, Stadiums)</td>
+      <td><a href="https://data.gov.sg/datasets?query=sportsg&resultId=d_9b87bab59d036a60fad2a91530e10773">data.gov.sg</a></td>
+    </tr>
+    <tr>
+      <td>Parks & Nature Reserves (NParks)</td>
+      <td><a href="https://data.gov.sg/datasets?query=nparks+parks&resultId=d_77d7ec97be83d44f61b85454f844382f">data.gov.sg</a></td>
+    </tr>
+    <tr>
+      <td>Park Connector Network (PCN)</td>
+      <td><a href="https://data.gov.sg/datasets/d_a69ef89737379f231d2ae93fd1c5707f/view">data.gov.sg</a></td>
+    </tr>
+    <tr>
+      <td>Cycling Path Network (CPN)</td>
+      <td><a href="https://data.gov.sg/datasets/d_8f468b25193f64be8a16fa7d8f60f553/view">data.gov.sg</a></td>
+    </tr>
+    <tr>
+      <td rowspan="2">Planning Area Boundaries</td>
+      <td>Master Plan 2019 Planning Area</td>
+      <td><a href="https://data.gov.sg/datasets?sort=relevancy&query=master+plan&resultId=2104">data.gov.sg</a></td>
+    </tr>
+    <tr>
+      <td>Master Plan 2019 Subzone</td>
+      <td><a href="https://data.gov.sg/datasets?sort=relevancy&query=master+plan&resultId=1749">data.gov.sg</a></td>
+    </tr>
+    <tr>
+      <td rowspan="2">Street Network</td>
+      <td>OpenStreetMap</td>
+      <td><a href="https://www.openstreetmap.org">openstreetmap.org</a></td>
+    </tr>
+    <tr>
+      <td>OSMnx</td>
+      <td><a href="https://osmnx.readthedocs.io/">osmnx.readthedocs.io</a></td>
+    </tr>
+    <tr>
+      <td rowspan="1">Housing (HDB)</td>
+      <td>HDB Existing Building</td>
+      <td><a href="https://data.gov.sg/datasets?sort=relevancy&query=hdb+&resultId=2033">data.gov.sg</a></td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
