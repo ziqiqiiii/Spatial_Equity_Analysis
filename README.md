@@ -73,9 +73,13 @@ To answer a critical urban planning question: Does the location of sports facili
   </thead>
   <tbody>
     <tr>
-      <td rowspan="1">Population</td>
-      <td>Resident Households (GHS 2015)</td>
-      <td><a href="https://data.gov.sg/datasets?sort=relevancy&query=Planning+Area&resultId=d_2917c3a947cd8d8af80dbec6b587281c">data.gov.sg</a></td>
+      <td rowspan="2">HDB Population</td>
+      <td>HDB Population</td>
+      <td><a href="https://www.hdb.gov.sg/-/media/doc/SCEG/HDB_Key-Statistics-2025.pdf">HDB Key Statistic 2025 </a></td>
+    </tr>
+    <tr>
+      <td>HDB Existing Building</td>
+      <td><a href="https://data.gov.sg/datasets?sort=relevancy&query=hdb+&resultId=2033">data.gov.sg</a></td>
     </tr>
     <tr>
       <td rowspan="4">Infrastructure</td>
@@ -111,11 +115,6 @@ To answer a critical urban planning question: Does the location of sports facili
     <tr>
       <td>OSMnx</td>
       <td><a href="https://osmnx.readthedocs.io/">osmnx.readthedocs.io</a></td>
-    </tr>
-    <tr>
-      <td rowspan="1">Housing (HDB)</td>
-      <td>HDB Existing Building</td>
-      <td><a href="https://data.gov.sg/datasets?sort=relevancy&query=hdb+&resultId=2033">data.gov.sg</a></td>
     </tr>
   </tbody>
 </table>
