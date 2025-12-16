@@ -41,11 +41,15 @@ To answer a critical urban planning question: Does the location of sports facili
 ---
 
 
-## Methodology (The 5-Step Approach)
+## Methodology
+
+#### *Current Implementation*
 
 **1. 2SFCA (Two-Step Floating Catchment Area):**
   - Measured accessibility based on Network Distance (walking paths), not straight lines.
   - Accounted for "crowding" (Capacity vs. Population size).
+
+#### *Future Implementation*
 
 **2. KDE (Kernel Density Estimation):**
   - Created "Human Heatmaps" to visualize where demand actually lives versus where facilities are built.
@@ -129,7 +133,7 @@ To answer a critical urban planning question: Does the location of sports facili
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 ```text
 ├── data/
@@ -145,6 +149,6 @@ To answer a critical urban planning question: Does the location of sports facili
 ```
 
 ---
-### Resources 
+## Resources 
 [Resources readme](./RESOURCES.md)
 
