@@ -2,7 +2,7 @@
 data/MasterPlan2019LandUselayer.geojson
 
 # Do not commit cache or large temporary outputs
-outputs/cache/
+notebooks/cache/*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -15,3 +15,5 @@ __pycache__/
 # OS files
 .DS_Store
 Thumbs.db
+
+*.graphml
