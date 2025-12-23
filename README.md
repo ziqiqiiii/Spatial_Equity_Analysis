@@ -43,25 +43,11 @@ To answer a critical urban planning question: Does the location of sports facili
 
 ## Methodology
 
-#### *Current Implementation*
-
 **1. 2SFCA (Two-Step Floating Catchment Area):**
   - Measured accessibility based on Network Distance (walking paths), not straight lines.
   - Accounted for "crowding" (Capacity vs. Population size).
 
-#### *Future Implementation*
 
-**2. KDE (Kernel Density Estimation):**
-  - Created "Human Heatmaps" to visualize where demand actually lives versus where facilities are built.
-
-**3. LQ (Location Quotient):**
-  - Compared each town against the National Average to identify which estates are "Overserved" vs "Underserved."
-
-**4. Gini Coefficient:**
-  - Calculated a single "Inequality Score" (0-1) to quantify the gap between Mature and Non-Mature estates.
-
-**5. Hotspot Analysis (Getis-Ord Gi):**
-  - Statistically identified "Fitness Deserts" (Cold Spots) to recommend optimal locations for new infrastructure.
 
 ---
 
@@ -152,3 +138,16 @@ To answer a critical urban planning question: Does the location of sports facili
 ## Resources 
 [Resources readme](./RESOURCES.md)
 
+## Future Implementation
+
+**2. KDE (Kernel Density Estimation):**
+  - Created "Human Heatmaps" to visualize where demand actually lives versus where facilities are built.
+
+**3. LQ (Location Quotient):**
+  - Compared each town against the National Average to identify which estates are "Overserved" vs "Underserved."
+
+**4. Gini Coefficient:**
+  - Calculated a single "Inequality Score" (0-1) to quantify the gap between Mature and Non-Mature estates.
+
+**5. Hotspot Analysis (Getis-Ord Gi):**
+  - Statistically identified "Fitness Deserts" (Cold Spots) to recommend optimal locations for new infrastructure.
