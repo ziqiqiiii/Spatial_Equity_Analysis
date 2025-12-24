@@ -128,8 +128,6 @@ To answer a critical urban planning question: Does the location of sports facili
 ├── notebooks/
 │   ├── 01_Data_Prep.ipynb   # Cleaning & Demographic Weighting
 │   ├── 02_Network_Analysis.ipynb # 2SFCA & OSMnx Routing
-│   ├── 03_Inequality_Metrics.ipynb # LQ & Gini Calculation
-│   └── 04_Hotspot_Modeling.ipynb # Getis-Ord Gi*
 ├── RESOURCES.md
 └── README.md
 ```
